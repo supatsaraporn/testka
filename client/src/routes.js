@@ -14,7 +14,7 @@ const routes = [
     element: <Main />,
   },
   {
-    path: "commath-pj",
+    path: "com-pj",
     element: <Main />,
   },
   {

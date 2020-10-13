@@ -1,9 +1,8 @@
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from numpy import sign
-#from nameko.rpc import rpc
-#from nameko.standalone.rpc import ClusterRpcProxy
 
 class eliminate(BaseModel):
     A:list
